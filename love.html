@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jawaban Sayang 💕</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sayangku 💖</h1>
+        <p>Terima kasih sudah membuka ini. Aku ingin bilang kalau aku sangat mencintaimu. Aku tidak ingin kehilanganmu, kamu adalah segalanya bagiku. 💑✨</p>
+        <p>Maukah kamu memaafkanku? 🥺</p>
+        <div class="choices">
+            <button onclick="showMessage('A. Iya, diterima maafnya! 💕')">A</button>
+            <button onclick="showMessage('B. Iya, diterima! 💖')">B</button>
+            <button onclick="showMessage('C. Iya, terima! 💓')">C</button>
+            <button onclick="showMessage('D. Iya, I love you! 😘')">D</button>
+        </div>
+        <p id="result"></p>
+    </div>
+
+    <div class="hearts"></div>
+    <script>
+        function showMessage(message) {
+            document.getElementById("result").innerHTML = message;
+        }
+    </script>
+</body>
+</html>
